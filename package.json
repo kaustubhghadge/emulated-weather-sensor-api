@@ -16,6 +16,7 @@
   "author": "Kaustubh Ghadge",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.0",
     "mongoose": "^4.11.8",
     "restify": "^5.2.0",
     "ws": "^3.1.0"

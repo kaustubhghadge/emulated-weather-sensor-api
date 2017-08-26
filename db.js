@@ -1,5 +1,6 @@
 // Load mongoose package and connect to MongoDB and create/use database called weatherData
-var mongoose = require('mongoose');
+var mongoose = require('mongoose'),
+Promise = require('bluebird');
 mongoose.connect('mongodb://localhost/weatherData');
 
 // Create a schema
@@ -34,7 +35,16 @@ function createWeatherObject(devdata){
 
 }
 
+function getWeatherData(){
+    return new Promise(function (resolve, reject){
+          Weather.find(function(err,weather) {
+              if (err) return console.error(err);
+              else resolve(weather)
+      });  
+    });
+}
 
 module.exports= {
-	createWeatherObject:createWeatherObject
+	createWeatherObject:createWeatherObject,
+  getWeatherData:getWeatherData
 }
