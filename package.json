@@ -1,0 +1,23 @@
+{
+  "name": "iot-app-api",
+  "version": "1.0.0",
+  "description": "API for getting device info and serving it on to the front end",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iot-app-api",
+    "iot",
+    "app",
+    "api"
+  ],
+  "author": "Kaustubh Ghadge",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.11.8",
+    "restify": "^5.2.0",
+    "ws": "^3.1.0"
+  }
+}
