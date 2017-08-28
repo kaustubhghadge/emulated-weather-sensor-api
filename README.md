@@ -23,5 +23,5 @@ Clone the repository
 </ul>
 
 <h3>Peek</h3>
-![Alt text](https://github.com/kaustubhghadge/emulated-weather-sensor-api/blob/master/Peek.gif?raw=true "Title")
+![Alt text](https://github.com/kaustubhghadge/emulated-weather-sensor-api/blob/master/Peek.gif)
 
