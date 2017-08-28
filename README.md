@@ -21,3 +21,7 @@ Clone the repository
   <li> Changes for port can be made in <code>env.js</code> file.</li> 
   <li>Currently serving on port - 8080,  at <code>/weather</code> endpoint.</li>
 </ul>
+
+<h3>Peek</h3>
+![Alt text](https://github.com/kaustubhghadge/emulated-weather-sensor-api/blob/master/Peek.gif?raw=true "Title")
+
